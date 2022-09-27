@@ -1,0 +1,24 @@
+{
+   
+    "nav": ["About Us", "Services", "Qualifications", "Projects", "Contact"],
+    "home": {
+        "title": "Home",
+        "description": "Home Meta description"  
+    },
+    "services": {
+        "title": "services",
+        "description": "services Meta description"  
+    },
+    "qualifications": {
+        "title": "qualifications",
+        "description": "qualifications Meta description"  
+    },
+    "projects": {
+        "title": "projects",
+        "description": "projects Meta description"  
+    },
+    "contact": {
+        "title": "contact",
+        "description": "contact Meta description"  
+    }
+}

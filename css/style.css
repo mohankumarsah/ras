@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form-control:focus {
+    box-shadow: unset !important;
+}
+
+body {
+    font-family: 'Akzidenz-Grotesk Std' !important;
+    color: #333;
+    background: #fff;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: unset !important;
+}
+
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk Std';
+    src: url('../fonts/AkzidenzGroteskStd-Regular.woff2') format('woff2'),
+        url('../fonts/AkzidenzGroteskStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+   
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'AG Buch BQ';
+    src: url('../fonts/AGBuchBQ-Medium.woff2') format('woff2'),
+        url('../fonts/AGBuchBQ-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+   
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'AkzidenzGrotesk';
+    src: url('../fonts/AkzidenzGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/AkzidenzGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+     
+    font-display: block;
+}
+
+
+.font-bold {
+    font-family: 'AkzidenzGrotesk';
+}
+
+.font-md {
+    font-family: 'AG Buch BQ';
+}
+
+.font-regular {
+    font-family: 'Akzidenz-Grotesk Std' !important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+}
+
+a {
+    -webkit-transition: all 0.4s ease !important;
+    transition: all 0.4s ease !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e75e20 !important;
+}
+
+input::placeholder, select::placeholder, textarea::placeholder {
+    color: #231f20 !important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(241 89 42) !important;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: unset !important;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}.fs-18 {
+    font-size: 18px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.white {
+    color: #fff;
+}
+.black{
+    color: #231f20;
+}
+
+
+.orange {
+    color: #F1592A;
+}
+
+
+/*=============header css start=============*/
+a.quote-btn {
+    writing-mode: vertical-rl;
+    background-color: #AF3726;
+    color: #fff;
+    text-transform: capitalize;
+    position: fixed;
+    right: 0px;
+    padding: 20px 10px;
+    top: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    padding-right: 5px;
+	z-index:99;
+}
+
+.container.call-area {
+    margin-bottom: -34px;
+}
+
+.phone.text-end {
+    padding: 2px 0px;
+}
+
+.top-black-bar {
+    height: 12px;
+    background-color: #231F1E;
+}
+
+.top-orange-bar {
+
+    height: 4px;
+    background-color: #f15928;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    box-shadow: inset -2px -25px 8px -18px #b5b6b8;
+}
+
+li.nav-item {
+    padding: 15px 20px;
+}
+
+a.nav-link {
+    font-size: 20px;
+    color: #000 !important;
+}
+
+a.navbar-brand {
+    max-width: 210px;
+}
+
+ul.header-media li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+section.my-nav .container {
+    align-items: flex-end;
+}
+
+/*=============header css end=============*/
+
+
+/*================banner css start================*/
+/*.banner-background {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    padding: 150px 0px;
+}*/
+
+
+.banner-background {
+    background-image: url(../img/new_banner.jpg);
+    background-size: cover;
+ 
+	position: relative;
+}
+.bg-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0000009e;
+    top: 0;
+    left: 0;
+    padding: 150px 0px;
+    z-index: 1;
+}
+/*================banner css end================*/
+
+
+/*================service css start================*/
+.services-background {
+    background-color: #20272D;
+    padding-bottom: 30px;
+    padding-top: 88px;
+    margin-top: -58px;
+}
+
+/*================service css end================*/
+
+
+/*================qualifications css start================*/
+.phone i {
+    font-size: 25px;
+    color: #e75e20;
+    position: relative;
+    top: 4px;
+}
+
+.phone a {
+    font-size: 20px;
+    color: #231f1e;
+}
+
+.big-dark-bar-qualifications {
+    background-color: #231F20;
+    padding: 15px 0px;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.ras-qualifications .big-dark-bar-qualifications {
+    margin-top: -1px;
+}
+.pull-up-service .qualifications-background {
+    margin-top: 0px;
+}
+.pull-up-service {
+    margin-top: -67.39px;
+}
+.qualifications-background {
+    background-color: #20272D;
+    padding-bottom: 30px;
+    padding-top: 88px;
+    margin-top: -68.39px;
+}
+.mini-dark-bar.projects {
+    background-color: #231f20;
+}
+.black-bar {
+    height: 10px;
+    background-color: #231F20;
+    margin-bottom: 2px;
+}
+.pull-up {
+    margin-top: -67.39px;
+}
+.pull-up .qualifications-background {
+    margin-top: 0px;
+}
+
+
+/*================qualifications css end================*/
+
+
+/*=============our project section start===================*/
+.row.project-col .col-md-3:hover .projects-overlay {
+    position: absolute;
+    background: #0000007d;
+    height: 100%;
+    width: 100%;
+	transition: 0.2s;
+}
+
+.row.project-col .col-md-3:hover .project-subtitle.orange{
+	text-shadow: 1px 1px #000;
+}
+ 
+.projects-imgs { 
+    position: relative;
+}
+section.map-area {
+    margin-bottom: -8px;
+}
+ .contact-detail a:hover {
+    color: #fff !important;
+}
+.project-subtitle.orange {
+    background-color: #20272D;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0px;
+    margin-bottom: 0px;
+}
+
+.project-background {
+    background-color: #f1592a;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    margin-top: -58px;
+}
+
+.ras-title {
+    color: #F15928;
+    text-transform: capitalize;
+}
+
+.big-dark-bar {
+    background-color: #231F20;
+    padding: 15px 0px;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
+    max-width: 800px;
+    margin: auto;
+    margin-top: -15px;
+}
+
+.orange-bar {
+
+    height: 2px;
+    background-color: #f15928;
+}
+
+.mini-dark-bar {
+    height: 6px;
+    background-color: #1f282d;
+}
+
+.lg-dark-bar {
+    height: 15px;
+    background-color: #231f20;
+}
+
+/*=============our project section end===================*/
+
+/*===========plus bar section===========*/
+.plus {
+    --b: 2px;
+    width: 40px;
+    aspect-ratio: 1;
+    border: 10px solid #f1592a;
+    background: conic-gradient(from 90deg at var(--b) var(--b), #000 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+    display: inline-block;
+}
+
+.alt {
+    border-color: #1a2028;
+    background: conic-gradient(from 90deg at var(--b) var(--b), #1a2028 90deg, #f1592a 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+}
+
+.plus-bar.text-center {
+    background-color: #1a2028;
+    box-shadow: inset 0px -10px 15px 0px #000000;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.plus-sign:before {
+    content: '';
+    height: 1px;
+    border: 1px solid #f1592a;
+    position: absolute;
+    width: calc(50% - 30px);
+    left: 0px;
+
+}
+
+.plus-sign:after {
+    content: '';
+    height: 1px;
+    border: 1px solid #f1592a;
+    position: absolute;
+    width: calc(50% - 30px);
+    right: 0px;
+
+}
+
+span.real-plus {
+    position: relative;
+    width: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+span.real-plus:before {
+    content: '';
+    height: 1px;
+    border: 1px solid #f1592a;
+    position: absolute;
+    width: 90%;
+    top: 0px;
+    left: 0px;
+}
+
+span.real-plus:after {
+    content: '';
+    height: 1px;
+    border: 1px solid #f1592a;
+    position: absolute;
+    width: 90%;
+    top: 0px;
+    left: 0px;
+    transform: rotateZ(90deg);
+}
+
+/*===========plus bar end===========*/
+
+
+/* ==========foooter css start==========*/
+section.orange-border {
+    height: 15px;
+    background-color: #F1592A;
+}
+
+section.footer {
+    background-color: #1A2028;
+    padding: 30px 0px;
+    box-shadow: inset 0px -10px 15px 0px #000000;
+}
+
+.footer-logo {
+    max-width: 230px;
+    margin: auto;
+}
+
+ul.footer-social img {
+    height: 25px;
+}
+
+ul.footer-social {
+    text-align: center;
+    padding-left: 0px !important;
+}
+
+ul.footer-social li {
+    display: inline-block;
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+.footer-contact a {
+    color: #CECECF;
+}
+
+.footer-email img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.hide-on-desktop{
+    display: none;
+}
+/* ==========foooter css end==========*/
+
+
+
+
+
+/*=================project page css start=================*/
+.row.project-col .col-md-3 {
+    margin-bottom: 20px;
+}
+
+ul.qualification-logo li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    border: none !important;
+    padding: 8px 15px !important;
+    font-family: 'Akzidenz-Grotesk Std' !important;
+}
+
+.primary-btn {
+    background-color: #231f20;
+    color: #f1592a;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 7px 50px;
+    border: none;
+    padding-bottom: 9px;
+}
+/*=================project page css end=================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========media query css start==========*/
+
+@media(max-width: 992px) {
+
+    ul.qualification-logo li {
+   
+    margin-bottom: 30px;
+}
+
+    section.my-nav .container {
+        align-items: center !important;
+    }
+
+    li.nav-item {
+        padding: 0px 10px;
+    }
+
+    ul.header-media.mb-0 {
+        padding-left: 0px;
+    }
+
+    .navbar-collapse {
+
+        padding: 20px 0px;
+    }
+}
+
+@media(max-width: 768px) {
+    .phone a {
+    font-size: 15px;
+    color: #231f1e;
+}
+    .hide-on-desktop{
+    display: block;
+}
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .ras-title {
+    font-size: 18px;
+}
+
+    .banner-background {
+    
+    padding: 100px 0px;
+}
+    a.navbar-brand {
+        max-width: 160px;
+    }
+}
+
+/* ==========media query css end==========*/
